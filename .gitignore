@@ -211,5 +211,5 @@ __marimo__/
 helloworld_cpp/
 
 # C# test stuff
-hellloworld_cs.sln
+*.sln
 helloworld_cs/
