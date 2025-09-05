@@ -64,6 +64,8 @@ if __name__=='__main__':
     num = 1000
     print(f'Demo 1 task 2: {num}! computed using five different ways')
     
+    # With num = 1000, A) and B) fails and F) gived inf.
+    
     print('A) recursive:')
     try:
         print(factorial_recursive(num))
