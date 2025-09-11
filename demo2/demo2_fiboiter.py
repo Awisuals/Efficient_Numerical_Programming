@@ -1,0 +1,10 @@
+def fibonacci_iter(n):
+    i, j  = 0, 1 # first two values are 0,1 
+    while n > 0:
+        i, j, n = j, i+j, n-1  # one step forward, decrease counter 
+    return i
+
+if __name__=='__main__':
+    for n in range(31):
+        print(n,fibonacci_iter(n))
+    
