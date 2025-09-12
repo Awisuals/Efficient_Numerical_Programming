@@ -1,8 +1,11 @@
-'''
+r'''
 Copyright (c) 2025 Antero Voutilainen
 Created: 10 09 2025
 
 Description: Finds funtion root from first exercecise.
+
+Example:
+    python .\AV_demo2_findroot_iter.py -a 1.0 -b 2.0
 '''
 import math as m
 import argparse as ap

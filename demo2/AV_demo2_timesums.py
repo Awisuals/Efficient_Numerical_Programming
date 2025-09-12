@@ -1,8 +1,11 @@
-'''
+r'''
 Copyright (c) 2025 Antero Voutilainen
 Created: 11 09 2025
 
 Description: Time numpy and python sum.
+
+Simply run with:
+    python .\AV_demo2_timesums.py
 '''
 import numpy as np
 import time
