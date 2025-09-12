@@ -241,8 +241,8 @@ def build_parser():
 
 
 if __name__ == '__main__':
-    # DEBUG = True
-    DEBUG = False
+    DEBUG = True
+    # DEBUG = False
     parser = build_parser()
     if DEBUG:
         fake = ["-m", "norm", "npnorm"]
